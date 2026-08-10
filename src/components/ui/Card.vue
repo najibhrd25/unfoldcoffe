@@ -16,6 +16,20 @@ const props = defineProps({
 
 const emit = defineEmits(['click'])
 const { openOrder } = useWhatsApp()
+
+function handleImageError(e, item) {
+  const localImg = `/${item.id}.png`
+  const placeholder = `https://placehold.co/600x600/f3ede8/5c4033?text=${encodeURIComponent(item.name)}`
+  
+  if (e.target.src.includes('placehold.co')) return
+  
+  if (!e.target.dataset.triedLocal) {
+    e.target.dataset.triedLocal = 'true'
+    e.target.src = localImg
+  } else {
+    e.target.src = placeholder
+  }
+}
 </script>
 
 <template>
@@ -24,7 +38,13 @@ const { openOrder } = useWhatsApp()
     class="flex items-center gap-4 py-3 border-b border-outline-variant/30 active:bg-surface-container-low transition-colors cursor-pointer"
     @click="emit('click')"
   >
-    <img :src="item.image" :alt="item.name" class="w-16 h-16 rounded-xl object-cover flex-none bg-surface-container-low" loading="lazy" />
+    <img 
+      :src="item.image" 
+      :alt="item.name" 
+      class="w-16 h-16 rounded-xl object-cover flex-none bg-surface-container-low" 
+      loading="lazy" 
+      @error="handleImageError($event, item)"
+    />
     <div class="flex-1 min-w-0 flex flex-col gap-0.5">
       <h3 class="font-label font-bold text-sm text-on-surface truncate">{{ item.name }}</h3>
       <p class="font-label text-xs text-on-surface-variant font-medium">{{ item.price }}</p>
@@ -47,6 +67,7 @@ const { openOrder } = useWhatsApp()
         :alt="item.name"
         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         loading="lazy"
+        @error="handleImageError($event, item)"
       />
 
       <!-- Badge -->

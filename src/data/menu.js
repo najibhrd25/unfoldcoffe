@@ -21,7 +21,7 @@ export const menuItems = [
     priceNum: 20000,
     category: 'makanan',
     description: 'Ayam katsu renyah dengan saus kari Jepang yang kaya rasa.',
-    image: 'https://images.unsplash.com/photo-1591814441344-9f79a953835e?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/chiket katsu curry.png',
   },
   {
     id: 'katsu-chicken-steak-french',
@@ -30,7 +30,7 @@ export const menuItems = [
     priceNum: 20000,
     category: 'makanan',
     description: 'Steak ayam katsu disajikan dengan kentang goreng renyah.',
-    image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Chiken katsu steak french.png',
   },
   {
     id: 'chicken-bowl-black',
@@ -39,7 +39,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'makanan',
     description: 'Rice bowl ayam dengan saus lada hitam yang gurih pedas.',
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Chiken bowl black paper.png',
   },
   {
     id: 'chicken-bowl-spicy-mayo',
@@ -48,7 +48,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'makanan',
     description: 'Rice bowl ayam dengan topping saus spicy mayo yang creamy.',
-    image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Chiken bowl spicy mayo.png',
   },
   {
     id: 'chicken-bowl-merah',
@@ -57,7 +57,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'makanan',
     description: 'Rice bowl ayam dengan bumbu merah khas Unfold.',
-    image: 'https://images.unsplash.com/photo-1562607311-4770288863f6?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Chiken bowl merah.png',
   },
 
   // Comfort Food
@@ -68,7 +68,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'makanan',
     description: 'Mie goreng tradisional dengan bumbu rempah otentik.',
-    image: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Miegoreng kampung.png',
   },
   {
     id: 'nasi-goreng-spesial',
@@ -78,7 +78,7 @@ export const menuItems = [
     category: 'makanan',
     badge: 'FAVORIT',
     description: 'Nasi goreng dengan telur, sosis, dan bumbu rahasia.',
-    image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Nasi Goreng special.png',
   },
   {
     id: 'nasi-goreng-merah',
@@ -87,7 +87,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'makanan',
     description: 'Nasi goreng bumbu merah khas daerah yang menggugah selera.',
-    image: 'https://images.unsplash.com/photo-1562607311-4770288863f6?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Nasi goreng merah.png',
   },
   {
     id: 'nasi-goreng-kampung',
@@ -96,7 +96,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'makanan',
     description: 'Nasi goreng gurih dengan bumbu tradisional sederhana.',
-    image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1552611052-33e04de081de?q=80&w=800&auto=format&fit=crop',
   },
 
   // Persegoan
@@ -107,7 +107,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'makanan',
     description: 'Nasi dengan sosis jumbo saus lada hitam.',
-    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego sosis lada hitam.png',
   },
   {
     id: 'sego-ayam-geprek',
@@ -116,7 +116,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'makanan',
     description: 'Nasi dengan ayam goreng krispi dan sambal geprek pedas.',
-    image: 'https://images.unsplash.com/photo-1562607311-4770288863f6?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego ayam gepuk.png',
   },
   {
     id: 'sego-ayam-goreng-laos',
@@ -125,7 +125,7 @@ export const menuItems = [
     priceNum: 19000,
     category: 'makanan',
     description: 'Nasi ayam goreng dengan bumbu lengkuas yang melimpah.',
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego ayam laos.png',
   },
   {
     id: 'sego-ayam-goreng-kampung',
@@ -134,7 +134,7 @@ export const menuItems = [
     priceNum: 28000,
     category: 'makanan',
     description: 'Nasi dengan ayam kampung goreng yang empuk dan gurih.',
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego ayam goreng kampung.png',
   },
   {
     id: 'sego-bebek-goreng',
@@ -143,7 +143,7 @@ export const menuItems = [
     priceNum: 28000,
     category: 'makanan',
     description: 'Nasi bebek goreng gurih dengan sambal mantap.',
-    image: 'https://images.unsplash.com/photo-1621213123697-3f338d1797d1?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego bebek goreng.png',
   },
   {
     id: 'sego-ribut',
@@ -152,7 +152,7 @@ export const menuItems = [
     priceNum: 17000,
     category: 'makanan',
     description: 'Kombinasi nasi dengan berbagai lauk pauk yang ramai.',
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego ribut.png',
   },
   {
     id: 'sego-sosis-saus-bbq',
@@ -161,7 +161,7 @@ export const menuItems = [
     priceNum: 18000,
     category: 'makanan',
     description: 'Nasi dengan sosis bakar disiram saus BBQ.',
-    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/sego sosis saus bbq.png',
   },
 
   // Indomie
@@ -172,7 +172,7 @@ export const menuItems = [
     priceNum: 12000,
     category: 'makanan',
     description: 'Indomie kuah hangat dengan pilihan sayur dan telur.',
-    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'indomie-nyemek',
@@ -181,7 +181,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'makanan',
     description: 'Indomie dengan kuah kental yang gurih dan nikmat.',
-    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/indomie nyemek.png',
   },
   {
     id: 'indomie-goreng-spesial',
@@ -190,7 +190,7 @@ export const menuItems = [
     priceNum: 12000,
     category: 'makanan',
     description: 'Indomie goreng dengan topping telur dan bumbu tambahan.',
-    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/indomie goreng special.png',
   },
 
   // === MENU CAMILAN & DESSERT ===
@@ -203,7 +203,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Risol isi macaroni and cheese yang lumer.',
-    image: 'https://images.unsplash.com/photo-1626700051175-6818013e184f?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Risol macheese.png',
   },
   {
     id: 'nachos-potato-cheese',
@@ -212,7 +212,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'camilan',
     description: 'Keripik kentang dengan saus keju melimpah.',
-    image: 'https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/nachos potato recheese.png',
   },
   {
     id: 'french-fries-original',
@@ -221,7 +221,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Kentang goreng renyah bumbu garam original.',
-    image: 'https://images.unsplash.com/photo-1630384066272-1177f6f53bdd?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/French Fries.png',
   },
   {
     id: 'french-fries-cheese',
@@ -230,7 +230,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'camilan',
     description: 'Kentang goreng renyah dengan taburan bumbu keju.',
-    image: 'https://images.unsplash.com/photo-1630384066272-1177f6f53bdd?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/French Fries Cheese.png',
   },
   {
     id: 'mix-platter',
@@ -240,7 +240,7 @@ export const menuItems = [
     category: 'camilan',
     badge: 'POPULER',
     description: 'Kombinasi kentang, nugget, dan sosis dalam satu piring.',
-    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Mix Platter.png',
   },
   {
     id: 'chicken-nugget',
@@ -249,7 +249,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Nugget ayam goreng renyah favorit.',
-    image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Chiken nugget.png',
   },
   {
     id: 'tahu-bakso-ikan',
@@ -258,7 +258,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Tahu bakso dengan isian ikan yang gurih.',
-    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Tahu bakso ikan.png',
   },
   {
     id: 'cireng-bumbu-rujak',
@@ -267,7 +267,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Cireng renyah kenyal dengan cocolan bumbu rujak pedas manis.',
-    image: 'https://images.unsplash.com/photo-1626700051175-6818013e184f?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Cireng Bumbu Rujak.png',
   },
   {
     id: 'otak-otak-goreng',
@@ -276,7 +276,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Otak-otak ikan digoreng garing.',
-    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Otak otak goreng.png',
   },
   {
     id: 'tempe-mendoan',
@@ -285,7 +285,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Tempe goreng tepung setengah matang yang lembut dan gurih.',
-    image: 'https://images.unsplash.com/photo-1626700051175-6818013e184f?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/Tempe Mendoan,png.jpg',
   },
   {
     id: 'enoki-crispy',
@@ -294,7 +294,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Jamur enoki goreng tepung yang sangat krispi.',
-    image: 'https://images.unsplash.com/photo-1626700051175-6818013e184f?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1541518763669-27f71462aed8?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'tahu-cabe-garam',
@@ -303,7 +303,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'camilan',
     description: 'Tahu potong dadu digoreng krispi dengan bumbu cabai garam.',
-    image: 'https://images.unsplash.com/photo-1626700051175-6818013e184f?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop',
   },
 
   // Sweet Threats
@@ -314,7 +314,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'camilan',
     description: 'Roti panggang spesial dengan aneka pilihan topping.',
-    image: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/bread day.png',
   },
   {
     id: 'roti-bakar-toping',
@@ -333,7 +333,7 @@ export const menuItems = [
     category: 'camilan',
     badge: 'PREMIUM',
     description: 'Roti pisang lembut dengan rasa yang kaya.',
-    image: 'https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/banana bread day.png',
   },
   {
     id: 'roti-bakar-susu',
@@ -342,7 +342,7 @@ export const menuItems = [
     priceNum: 11000,
     category: 'camilan',
     description: 'Roti bakar simpel dengan siraman susu kental manis.',
-    image: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'pisang-kribo',
@@ -351,7 +351,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'camilan',
     description: 'Pisang goreng dengan balutan tepung krispi yang unik.',
-    image: 'https://images.unsplash.com/photo-1621245012351-40be9928574d?q=80&w=800&auto=format&fit=crop',
+    image: '/img menu/pisang kribo.png',
   },
   {
     id: 'banana-nugget',
@@ -360,7 +360,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'camilan',
     description: 'Pisang potong nugget goreng krispi dengan aneka rasa.',
-    image: 'https://images.unsplash.com/photo-1621245012351-40be9928574d?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=800&auto=format&fit=crop',
   },
 
   // === MENU MINUMAN ===
@@ -374,7 +374,7 @@ export const menuItems = [
     category: 'non-kopi',
     badge: 'SIGNATURE',
     description: 'Minuman Red Velvet creamy dengan foam keju gurih di atasnya.',
-    image: 'https://images.unsplash.com/photo-1544787210-2213d84ad960?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'taro-creamy-coffee',
@@ -384,7 +384,7 @@ export const menuItems = [
     category: 'kopi',
     badge: 'SIGNATURE',
     description: 'Perpaduan espresso, susu, dan rasa taro yang unik.',
-    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544787210-2213d84ad960?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'avocado-coffee-latte',
@@ -394,7 +394,7 @@ export const menuItems = [
     category: 'kopi',
     badge: 'SIGNATURE',
     description: 'Espresso dengan rasa alpukat yang creamy dan segar.',
-    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'matcha-creamy-coffee',
@@ -404,7 +404,7 @@ export const menuItems = [
     category: 'kopi',
     badge: 'SIGNATURE',
     description: 'Matcha latte premium dengan sentuhan shot espresso.',
-    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=800&auto=format&fit=crop',
   },
 
   // Milk Based
@@ -415,7 +415,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'non-kopi',
     description: 'Matcha Jepang premium dengan susu segar yang lembut.',
-    image: 'https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'milkshake-choco-oreo',
@@ -433,7 +433,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'non-kopi',
     description: 'Susu segar dengan sirup stroberi asli dan potongan buah.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'milkshake-strawberry',
@@ -442,7 +442,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'non-kopi',
     description: 'Milkshake rasa stroberi yang manis dan menyegarkan.',
-    image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'choco-latte',
@@ -487,7 +487,7 @@ export const menuItems = [
     priceNum: 13000,
     category: 'non-kopi',
     description: 'Milkshake rasa teh hijau yang khas.',
-    image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=800&auto=format&fit=crop',
   },
 
   // Coffee Based
@@ -508,7 +508,7 @@ export const menuItems = [
     priceNum: 12000,
     category: 'kopi',
     description: 'Kopi seduh tradisional Vietnam dengan filter dripper.',
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'vietnam-drip-skm',
@@ -630,7 +630,7 @@ export const menuItems = [
     category: 'non-kopi',
     badge: 'FRESH',
     description: 'Minuman soda stroberi yang sangat menyegarkan.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'yuzu-fizz',
@@ -639,7 +639,7 @@ export const menuItems = [
     priceNum: 20000,
     category: 'non-kopi',
     description: 'Minuman soda dengan rasa jeruk Yuzu Jepang.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'lemon-squash',
@@ -648,7 +648,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'non-kopi',
     description: 'Minuman soda lemon yang asam dan segar.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'lychee-squash',
@@ -657,7 +657,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'non-kopi',
     description: 'Soda dengan rasa leci yang manis segar.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'strawberry-squash',
@@ -666,7 +666,7 @@ export const menuItems = [
     priceNum: 16000,
     category: 'non-kopi',
     description: 'Soda dengan rasa stroberi yang ceria.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'lychee-yakult',
@@ -675,7 +675,7 @@ export const menuItems = [
     priceNum: 20000,
     category: 'non-kopi',
     description: 'Perpaduan leci, soda, dan Yakult yang menyehatkan.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
 
   // Local Drink & Juice
@@ -713,7 +713,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'non-kopi',
     description: 'Soda dengan susu kental manis dan sirup merah.',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'jus-alpukat',
@@ -722,7 +722,7 @@ export const menuItems = [
     priceNum: 17000,
     category: 'non-kopi',
     description: 'Jus alpukat segar dengan siraman coklat.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31d90?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'jus-strawberry',
@@ -731,7 +731,7 @@ export const menuItems = [
     priceNum: 17000,
     category: 'non-kopi',
     description: 'Jus stroberi segar kaya vitamin.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'jus-semangka',
@@ -740,7 +740,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'non-kopi',
     description: 'Jus semangka segar penghilang dahaga.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'jus-melon',
@@ -749,7 +749,7 @@ export const menuItems = [
     priceNum: 15000,
     category: 'non-kopi',
     description: 'Jus melon manis dan segar.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31d90?q=80&w=800&auto=format&fit=crop',
   },
   {
     id: 'jus-jeruk',
@@ -758,7 +758,7 @@ export const menuItems = [
     priceNum: 14000,
     category: 'non-kopi',
     description: 'Jus jeruk murni yang menyegarkan.',
-    image: 'https://images.unsplash.com/photo-1563636619-e9107da5a1bb?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=800&auto=format&fit=crop',
   },
 ]
 
