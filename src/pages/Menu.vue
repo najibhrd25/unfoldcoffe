@@ -95,39 +95,44 @@ function setCategory(id) {
     <!-- Product Grid / List -->
     <section v-else-if="filteredItems.length > 0" class="px-6 max-w-6xl mx-auto mt-6 pb-16 reveal">
       
-      <!-- 'All' View Grouped -->
-      <template v-if="activeCategory === 'all'">
-        <div v-for="group in groupedItems" :key="group.category.id" class="mb-10">
-          <h2 class="font-headline text-xl font-bold mb-4 text-on-surface">{{ group.category.label }}</h2>
-          
-          <!-- Mobile List -->
-          <div class="flex flex-col md:hidden">
-            <Card
-              v-for="item in group.items"
-              :key="item.id"
-              :item="item"
-              layout="list"
-              @click="openModal(item)"
-            />
-          </div>
-          
-          <!-- Desktop Grid -->
-          <div class="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10">
-            <Card
-              v-for="item in group.items"
-              :key="item.id"
-              :item="item"
-              layout="grid"
-              @click="openModal(item)"
-            />
-          </div>
+      <!-- Grouped View for 'All' -->
+      <div v-if="activeCategory === 'all'">
+        <div v-for="cat in categories.filter(c => c.id !== 'all')" :key="cat.id" class="mb-12">
+          <template v-if="menuItems.filter(item => item.category === cat.id).length > 0">
+            <h2 class="font-headline text-xl font-bold mb-6 text-on-surface flex items-center gap-3">
+              <span class="w-8 h-[2px] bg-primary/20"></span>
+              {{ cat.label }}
+            </h2>
+            
+            <!-- Mobile List -->
+            <div class="flex flex-col md:hidden gap-1">
+              <Card
+                v-for="item in menuItems.filter(item => item.category === cat.id)"
+                :key="item.id"
+                :item="item"
+                layout="list"
+                @click="openModal(item)"
+              />
+            </div>
+            
+            <!-- Desktop Grid -->
+            <div class="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10">
+              <Card
+                v-for="item in menuItems.filter(item => item.category === cat.id)"
+                :key="item.id"
+                :item="item"
+                layout="grid"
+                @click="openModal(item)"
+              />
+            </div>
+          </template>
         </div>
-      </template>
+      </div>
 
       <!-- Filtered Category View -->
-      <template v-else>
+      <div v-else>
         <!-- Mobile List -->
-        <div class="flex flex-col md:hidden">
+        <div class="flex flex-col md:hidden gap-1">
           <Card
             v-for="item in filteredItems"
             :key="item.id"
@@ -147,7 +152,7 @@ function setCategory(id) {
             @click="openModal(item)"
           />
         </div>
-      </template>
+      </div>
     </section>
 
     <!-- Empty State -->

@@ -42,7 +42,6 @@ function handleImageError(e, item) {
       :src="item.image" 
       :alt="item.name" 
       class="w-16 h-16 rounded-xl object-cover flex-none bg-surface-container-low" 
-      loading="lazy" 
       @error="handleImageError($event, item)"
     />
     <div class="flex-1 min-w-0 flex flex-col gap-0.5">
@@ -66,7 +65,6 @@ function handleImageError(e, item) {
         :src="item.image"
         :alt="item.name"
         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        loading="lazy"
         @error="handleImageError($event, item)"
       />
 

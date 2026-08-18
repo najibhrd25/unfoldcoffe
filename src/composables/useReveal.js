@@ -28,16 +28,22 @@ export function useReveal() {
       { threshold: 0.1, rootMargin: '0px 0px -40px 0px' },
     )
 
-    // Initial observation
-    observeElements()
+    // Initial observation with a small delay to ensure DOM is ready
+    setTimeout(() => {
+      observeElements()
+    }, 100)
 
     // Watch for new elements added to the DOM
     mutationObserver = new MutationObserver((mutations) => {
+      let shouldCheck = false
       mutations.forEach((mutation) => {
-        if (mutation.addedNodes.length) {
-          observeElements()
+        if (mutation.addedNodes.length || mutation.type === 'childList') {
+          shouldCheck = true
         }
       })
+      if (shouldCheck) {
+        observeElements()
+      }
     })
 
     mutationObserver.observe(document.body, {
